@@ -36,8 +36,21 @@ main{
     display: flex;
 }
 
+
+.fourBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: flex-end;
+}
+
 .box {
     width: 250px;
     height: 250px;
-    background-color: red;
+    background-color: #866E61;
+}
+
+.parent {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
 }
