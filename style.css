@@ -1,17 +1,21 @@
 *{
-margin: 0;
-padding: 5px;
-box-sizing: border-box;
-font-family: "Garamond"
+    margin: 25;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Garamond";
+    scroll-behavior:Smooth;
 
 }
 
 nav {
+    
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 25px;
-    background-color: #866E61;
+    background-color:#B19994
+   
+    
 }
 
 ul {
@@ -19,12 +23,16 @@ ul {
     list-style: none;
     width: 70%;
     justify-content: space-between;
-    background-color: #866E61;
+    background-color:#937666
+
+    
 }
-main{
+main
+footer{
     width: auto;
     margin:auto;
     text-align: center;
+    background-color: #B19994;
 }
 
 .abtMe {
@@ -40,4 +48,46 @@ main{
     width: 250px;
     height: 250px;
     background-color: red;
+}
+
+.class{
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+}
+
+.hobbies-move {
+    position: absolute;
+    top: 900px;
+    left: 750px;
+}
+
+
+#gallery{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+
+    display: flex;
+   align-items: center;
+
+}
+
+#prev
+#next {
+    height: 15px;
+    width: 15px;
+    background: none;
+    border:#B19994
+
+}
+
+
+#gallery-img{
+    width: 100%;
+}
+
+#prev:hover
+#next:hover {
+    cursor: pointer;
 }
